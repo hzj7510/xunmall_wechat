@@ -1,0 +1,42 @@
+.goods-container{
+  position: relative;
+  width: 100%;
+}
+.goods-cell-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.goods-image{
+  height: 120rpx;
+  width: 120rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  border:1px solid #f1f1f1;
+}
+
+.goods-detail-container{
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 40rpx;
+}
+
+.brief{
+  font-size: 24rpx;
+}
+
+.unit{
+  font: 40rpx;
+}
+
+.cart-image{
+  position: absolute;
+  right: 20rpx;
+  bottom: 10rpx;
+  height: 60rpx;
+  width: 60rpx;
+}

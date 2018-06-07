@@ -1,0 +1,6 @@
+<template name="goods-brief-template">
+  <view class='goods-brief-container'>
+    <image class='brief-image' src='/images/tabbar-images/home.png'></image>
+    <text class='brief-text'>aaa</text>
+  </view>
+</template>

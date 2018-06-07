@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/home/home",    
+    "pages/category/category",
+    "pages/qrscan/qrscan",
+    "pages/orderlist/orderlist",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/tabbar-images/home.png",
+      "selectedIconPath": "images/tabbar-images/home-selected.png"
+    },
+    {
+      "pagePath": "pages/category/category",
+      "text": "分类",
+      "iconPath": "images/tabbar-images/category.png",
+      "selectedIconPath": "images/tabbar-images/category-selected.png"
+    },
+    {
+      "pagePath": "pages/qrscan/qrscan",
+      "text": "扫啊扫",
+      "iconPath": "images/tabbar-images/qrscan.png",
+      "selectedIconPath": "images/tabbar-images/qrscan-selected.png"
+    },
+    {
+      "pagePath": "pages/orderlist/orderlist",
+      "text": "进货单",
+      "iconPath": "images/tabbar-images/order.png",
+      "selectedIconPath": "images/tabbar-images/order-selected.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "images/tabbar-images/account.png",
+      "selectedIconPath": "images/tabbar-images/account-selected.png"
+    }]
+  }
+}

@@ -1,0 +1,47 @@
+ <import src='../../templates/goods-brief-template/goods-brief-template.wxml'/> 
+<!-- <template is="goods-cell-template" /> -->
+
+<view class='container'>
+  <view class='input-container'>
+    <view class='input-white-container'>
+      <image src='/images/tabbar-images/home.png' class='input-image'></image>
+      <text class='input-text'>一站式采购,轻松进货</text>
+    </view>
+  </view>
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500" class='adswiper' circular='true'>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="adswiper-slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <scroll-view class='scroll-view-container' scroll-x='true' >
+      <view class='scroll-view-sub-container'>
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+      </view>
+      <view class='scroll-view-sub-container'>
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+        <template is="goods-brief-template" />
+      </view>
+  </scroll-view>
+</view>

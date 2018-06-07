@@ -1,0 +1,14 @@
+<template name="goods-cell-template">
+  <view class='goods-container'>
+    <view class='goods-cell-container'>
+      <image class='goods-image' src='/images/tabbar-images/home.png'></image>
+      <view class='goods-detail-container'>
+        <text class='title'>aaa</text>
+        <text class='brief'>bbb</text>
+        <text class='unit'>ccc</text>
+      </view>
+      
+    </view>
+    <image class='cart-image' src='/images/tabbar-images/home.png'></image>
+  </view>
+</template>

@@ -1,0 +1,15 @@
+.goods-brief-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brief-image{
+  height: 80rpx;
+  width: 80rpx;
+  margin: 10rpx;
+}
+
+.brief-text{
+  font-size: 24rpx;
+}

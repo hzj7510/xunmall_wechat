@@ -1,0 +1,47 @@
+ @import "/templates/goods-brief-template/goods-brief-template.wxss"; 
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container{
+  background-color: #EB6546;
+  width: 100%;
+}
+
+.input-white-container{
+  border-radius: 30rpx;
+  margin: 15rpx 20rpx 15rpx 20rpx;
+  background-color: white;
+  align-items:center;
+  display: flex;
+}
+
+.input-image{
+  margin: 15rpx 0 15rpx 20rpx;
+  height: 30rpx;
+  width: 30rpx;
+}
+.input-text{
+  margin-left: 10rpx;
+  font-size: 24rpx;
+  color: #aaa;
+}
+
+.adswiper{
+  height: 300rpx;
+  width: 100%;
+}
+.adswiper-slide-image{
+  height: 300rpx;
+  width: 100%;
+}
+
+.scroll-view-container{ 
+  width: 100%;
+}
+.scroll-view-sub-container{
+  display: flex;
+  flex-direction: row;
+}

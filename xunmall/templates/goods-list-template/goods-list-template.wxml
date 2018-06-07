@@ -1,0 +1,5 @@
+<import src="../goods-cell-template/goods-cell-template.wxml" />
+
+<template name="goods-list-template">
+  
+</template>
