@@ -5,8 +5,8 @@
 }
 
 .brief-image{
-  height: 80rpx;
-  width: 80rpx;
+  height: 150rpx;
+  width: 150rpx;
   margin: 10rpx;
 }
 

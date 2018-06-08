@@ -1,0 +1,22 @@
+.goods-col-cell-container{
+  display: flex;
+  flex-direction: column;
+  margin: 10rpx 0 10rpx 20rpx;
+}
+.goods-col-cell-image{
+  height: 200rpx;
+  width: 200rpx;
+}
+.goods-col-cell-title{
+  font-size: 34rpx;
+  width: 200rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.goods-col-cell-price{
+  color: #EB6546;
+}
+.goods-col-cell-unit{
+  color: #f1f1f1;
+}

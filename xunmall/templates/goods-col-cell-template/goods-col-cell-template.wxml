@@ -1,0 +1,7 @@
+<template name="goods-col-cell-template">
+  <view class='goods-col-cell-container'>
+    <image class='goods-col-cell-image' src='/images/tabbar-images/home.png'></image>
+    <text class='goods-col-cell-title'>这是一个什么水果</text>
+    <text class='goods-col-cell-price'>¥20<text class='goods-col-cell-unit'>/盒</text></text>
+  </view>
+</template>

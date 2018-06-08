@@ -1,5 +1,6 @@
- <import src='../../templates/goods-brief-template/goods-brief-template.wxml'/> 
-<!-- <template is="goods-cell-template" /> -->
+<import src='../../templates/goods-brief-template/goods-brief-template.wxml' />
+<import src='../../templates/goods-col-cell-template/goods-col-cell-template.wxml' />
+<import src='../../templates/goods-cell-template/goods-cell-template.wxml' />
 
 <view class='container'>
   <view class='input-container'>
@@ -16,32 +17,105 @@
     </block>
   </swiper>
 
-  <scroll-view class='scroll-view-container' scroll-x='true' >
-      <view class='scroll-view-sub-container'>
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-      </view>
-      <view class='scroll-view-sub-container'>
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-        <template is="goods-brief-template" />
-      </view>
+  <scroll-view class='scroll-view-container' scroll-x='true'>
+    <view class='scroll-view-sub-container'>
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+    </view>
+    <view class='scroll-view-sub-container'>
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+      <template is="goods-brief-template" />
+    </view>
   </scroll-view>
+
+  <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' class='ad-image'></image>
+
+  <view class='promotion-container'>
+    <view class='promotion-col-container'>
+      <view class='promotion-text-view'>
+        <text class='promotion-title'>促销专区</text>
+        <text class='promotion-detail'>巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉</text>
+        <text class='promotion-label'>立即抢</text>
+      </view>
+      <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' class='promotion-col-image'></image>
+    </view>
+    <view>
+      <view class='promotion-row-container'>
+        <view class='promotion-text-view'>
+          <text class='promotion-title'>促销专区</text>
+          <text class='promotion-detail'>巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉</text>
+          <text class='promotion-label'>立即抢</text>
+        </view>
+        <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' class='promotion-row-image'></image>
+      </view>
+      <view class='promotion-row-container'>
+        <view class='promotion-text-view'>
+          <text class='promotion-title'>促销专区</text>
+          <text class='promotion-detail'>巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉</text>
+          <text class='promotion-label'>立即抢</text>
+        </view>
+        <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' class='promotion-row-image'></image>
+      </view>
+    </view>
+  </view>
+
+  <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' class='ad-image'></image>
+
+  <view>
+    <text>品牌精选 <text>NEW COMMODITY</text></text>
+    <scroll-view class='scroll-view-container' scroll-x='true'>
+      <view class='scroll-view-sub-container'>
+        <template is="goods-col-cell-template" />
+        <template is="goods-col-cell-template" />
+        <template is="goods-col-cell-template" />
+        <template is="goods-col-cell-template" />
+        <template is="goods-col-cell-template" />
+        <template is="goods-col-cell-template" />
+      </view>
+    </scroll-view>
+  </view>
+  <view>
+    <text class='recommend-title'>品牌精选 <text>NEW COMMODITY</text></text>
+    <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' class='recommend-image'></image>
+    <scroll-view class='scroll-view-container' scroll-x='true'>
+      <view class='scroll-view-sub-container'>
+        <template is="goods-col-cell-template" />
+        <template is="goods-col-cell-template" />
+        <template is="goods-col-cell-template" />
+        <template is="goods-col-cell-template" />
+        <template is="goods-col-cell-template" />
+        <template is="goods-col-cell-template" />
+      </view>
+    </scroll-view>
+  </view>
+
+  <view>
+    <text>品牌精选 <text>NEW COMMODITY</text></text>
+    <block>
+      <template is="goods-cell-template" />
+      <template is="goods-cell-template" />
+      <template is="goods-cell-template" />
+      <template is="goods-cell-template" />
+      <template is="goods-cell-template" />
+      <template is="goods-cell-template" />
+    </block>
+  </view>
 </view>
